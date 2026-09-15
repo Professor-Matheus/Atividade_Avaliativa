@@ -58,24 +58,24 @@ git mv pasta_modelo/ aluno_nome_sobrenome/
  
 ---
 # 2. Identificação Local de Autoria (git config)
-Para garantia da nota, altere a identidade local do Git antes de fazer seus commits:
+Para garantia da nota, altere a identidade local do Git antes de fazer seus commits:\
 `git config --local user.name "Seu Nome Completo"
 git config --local user.email "seu.email@escola.com"`
 
 ---
 # Passo a Passo para executação 
-1. Clonar o Repositório:
-`git clone <URL_DO_REPOSITORIO> 
-cd Atividade_Avaliativa`
+1. Clonar o Repositório:\
+`git clone <URL_DO_REPOSITORIO>`\
+`cd Atividade_Avaliativa`
 >cd comando usado para se movimentar entre as pastas
 ---
-2. Configurar o Usuário Local:
-`git config --local user.name "Seu Nome" 
-git config --local user.email "seu.email@escola.com"`
+2. Configurar o Usuário Local:\
+`git config --local user.name "Seu Nome" `\
+`git config --local user.email "seu.email@escola.com"`
 >--local informa que o registro deste usuario ficara apenas no repositorio atual.\
 >user.name = seu nome , ficara registrado em todos os commits.\
 >user.email = seu email.
-2.1 Criar uma Branch
+2.1 Criar uma Branch\
 `git checkout -b aluno_nome_sobrenome  ou nomealunoA_nomealunoB`
 >checkout serve para navegar entre as branches , comando `-b` serve para criar uma nova branch.
 ---
