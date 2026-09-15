@@ -2,9 +2,9 @@ name: Pipeline CI/CD Atividade Avaliativa
 
 on:
   push:
-    branches: [ FIXME ]
+    branches: [ aaaaaa]
   pull_request:
-    branches: [ FIXME ]
+    branches: [ FIXMEaaaaaaa ]
 
 jobs:
   build_e_testes:
@@ -24,8 +24,7 @@ jobs:
   deploy_qa:
     name: Job de Entrega Continua (CD - Homologacao)
     runs-on: ubuntu-latest
-    needs: [ FIXME ]
-
+    needs: [ Faaa]
     steps:
       - name: Deploy em Ambiente de QA
         run: |
