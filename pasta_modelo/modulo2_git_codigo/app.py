@@ -9,7 +9,8 @@ def calcular_velocidade(sprints):
     """
     # TODO: Implementar lógica de soma e média
     pass
-
+def calcular_velocidade(sprints):
+    return sum(sprints) / len(sprints) if sprints else 0
 
 def validar_dependencia(tarefa_pai_concluida):
     """
@@ -18,7 +19,8 @@ def validar_dependencia(tarefa_pai_concluida):
     """
     # TODO: Retornar True se concluída, False caso contrário
     pass
-
+def validar_dependencia(tarefa_pai_concluida):
+    return tarefa_pai_concluida
 
 def status_release(sprints_estimadas):
     """
@@ -27,3 +29,5 @@ def status_release(sprints_estimadas):
     """
     # TODO: Retornar string no formato "Release prevista para X Sprints"
     pass
+def status_release(sprints_estimadas):
+    return f"release prevista para {sprints_estimadas} sprints"
