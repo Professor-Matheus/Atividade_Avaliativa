@@ -71,13 +71,14 @@ git config --local user.email "seu.email@escola.com"`
 ---
 2. Configurar o Usuário Local:\
 `git config --local user.name "Seu Nome" `\
-`git config --local user.email "seu.email@escola.com"`
->--local informa que o registro deste usuario ficara apenas no repositorio atual.\
->user.name = seu nome , ficara registrado em todos os commits.\
->user.email = seu email.
+`git config --local user.email "seu.email@escola.com"`\
 2.1 Criar uma Branch\
 `git checkout -b aluno_nome_sobrenome  ou nomealunoA_nomealunoB`
 >checkout serve para navegar entre as branches , comando `-b` serve para criar uma nova branch.
+
+>--local informa que o registro deste usuario ficara apenas no repositorio atual.\
+>user.name = seu nome , ficara registrado em todos os commits.\
+>user.email = seu email.
 ---
 3. Renomear a Pasta Modelo:\
 `git mv pasta_modelo/ seu_nome_sobrenome/ ou git mv pasta_modelo/ nomealunoA_nomealunoB/`\
