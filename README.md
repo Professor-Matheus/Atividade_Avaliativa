@@ -45,7 +45,7 @@ Atividade_Avaliativa/
     │   └── exercicio_pratico.md              # Exercício de cálculo de Sprints e dependências
     ├── modulo2_git_codigo/
     │   ├── perguntas_teoricas.md             # Questões de Commits Atômicos e Merge Conflicts
-    │   └── app.js                            # Código JavaScript para implementação prática
+    │   └── app.py                            # Código JavaScript para implementação prática
     └── modulo3_4_devops_cicd/
         └── perguntas_teoricas.md             # Questões de GitHub Actions, Runners e Ambientes
 ```
