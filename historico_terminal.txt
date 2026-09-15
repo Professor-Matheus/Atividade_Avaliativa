@@ -1,1 +1,12 @@
-
+# 🖥️ Registro de Comandos do Terminal (CLI)
+# 
+# Instrução para o aluno:
+# Antes de efetuar o 'git push' final, execute o comando correspondente ao seu sistema para exportar o histórico de comandos:
+# 
+# No Linux/macOS ou Git Bash:
+# history | tail -n 30 > historico_terminal.txt
+#
+# No Windows PowerShell:
+# Get-History | Select-Object -Last 30 | Format-Table -Auto | Out-File -FilePath historico_terminal.txt
+#
+# Cole ou salve o resultado neste arquivo para comprovar o uso exclusivo do terminal.
