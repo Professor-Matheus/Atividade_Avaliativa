@@ -45,7 +45,7 @@ Atividade_Avaliativa/
     │   └── exercicio_pratico.md              # Exercício de cálculo de Sprints e dependências
     ├── modulo2_git_codigo/
     │   ├── perguntas_teoricas.md             # Questões de Commits Atômicos e Merge Conflicts
-    │   └── app.py                            # Código JavaScript para implementação prática
+    │   └── app.py                            # Código Python para implementação prática
     └── modulo3_4_devops_cicd/
         └── perguntas_teoricas.md             # Questões de GitHub Actions, Runners e Ambientes
 ```
@@ -109,7 +109,7 @@ Corrija as lacunas (FIXME / TODO) no arquivo `.github/workflows/ci_cd_pipeline.y
 | Módulo / Requisito | Foco Avaliado | Pontuação (Solo) | Pontuação (Dupla) |
 | :--- | :--- | :--- | :--- |
 | **Módulo 1** | Teoria de Estimativas + Exercício de Release Planning | 0,45 pt | 0,90 pt |
-| **Módulo 2** | Teoria de Engenharia + Implementação em `app.js` (Commits atômicos) | 0,45 pt | 0,90 pt |
+| **Módulo 2** | Teoria de Engenharia + Implementação em `app.py` (Commits atômicos) | 0,45 pt | 0,90 pt |
 | **Módulo 3 & 4** | Teoria de DevOps + Correção da Pipeline em `.github/workflows/` | 0,57 pt | 1,15 pt |
 | **Operação CLI** | Uso do `git mv`, histórico de terminal e mensagens de commit | 0,40 pt | 0,80 pt |
 | **TOTAL** | | **1,87 pt** | **3,75 pts** |
