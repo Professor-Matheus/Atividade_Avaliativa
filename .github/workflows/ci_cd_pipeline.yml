@@ -1,0 +1,31 @@
+name: Pipeline CI/CD Atividade Avaliativa
+
+on:
+  push:
+    branches: [ FIXME ]
+  pull_request:
+    branches: [ FIXME ]
+
+jobs:
+  build_e_testes:
+    name: Job de Integracao Continua (CI)
+    runs-on: FIXME
+
+    steps:
+      - name: Checkout do Repositorio
+        uses: actions/checkout@v4
+
+      - name: Executar Testes Simulados
+        run: |
+          echo "Executando testes automatizados do app.js..."
+          node -e "console.log('Testes de integracao passados com sucesso!')"
+
+  deploy_qa:
+    name: Job de Entrega Continua (CD - Homologacao)
+    runs-on: ubuntu-latest
+    needs: [ FIXME ]
+
+    steps:
+      - name: Deploy em Ambiente de QA
+        run: |
+          echo "Deploy realizado no Ambiente de Homologacao/QA!"
