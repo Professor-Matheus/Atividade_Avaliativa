@@ -17,8 +17,9 @@ jobs:
 
       - name: Executar Testes Simulados
         run: |
-          echo "Executando testes automatizados do app.js..."
-          node -e "console.log('Testes de integracao passados com sucesso!')"
+          echo "Executando testes automatizados do app.py..."
+          # FIXME: Insira abaixo o comando para executar ou testar o arquivo app.py
+          FIXME
 
   deploy_qa:
     name: Job de Entrega Continua (CD - Homologacao)
