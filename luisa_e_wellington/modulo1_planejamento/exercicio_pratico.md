@@ -16,7 +16,16 @@ Sua equipe possui uma **Velocidade Média de 12 Story Points por Sprint**. O Pro
 ### Responda:
 
 1. **Cálculo da Release:** Qual o total de Story Points do projeto e em quantas Sprints a Release completa será entregue? (Apresente o cálculo simples).
-   *Sua resposta:*
+   *Sua resposta:* 5+8+3+8+5 = 29, 29/12 = 2,42 = 3
 
 2. **Mapeamento de Dependências:** Monte o cronograma das Sprints (Sprint 1, Sprint 2, etc.) alocando as tarefas em cada uma, respeitando rigorosamente a capacidade de 12 SP/Sprint e as dependências técnicas.
    *Sua resposta:*
+ 
+| ID | Funcionalidade | Esforço (SP) | Dependência Técnica |
+| :--- | :--- | :--- | :--- |
+| A | decoração || 5 | Nenhuma |
+| B | alimentação | 8 | Tarefa A |
+| C | harmonia, melodia, ritimo | 3 | Tarefa B |
+| D | instrumentos gerais | 8 | Tarefa A |
+| E | canto (UI) | 5 | Tarefas B e D |
+ 
