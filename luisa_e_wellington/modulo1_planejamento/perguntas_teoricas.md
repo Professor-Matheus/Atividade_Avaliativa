@@ -12,4 +12,4 @@ Responda às questões abaixo diretamente neste arquivo.
 
 3. **Durante um Release Planning Workshop, qual o papel do alinhamento entre valor de negócio, riscos e dependências técnicas?**
 
-   *Sua resposta aqui:*
+   *Sua resposta aqui:*o aliamento garante que o que traz mais valor seja considerado, sem ignorar riscos e limitações técnicas.
