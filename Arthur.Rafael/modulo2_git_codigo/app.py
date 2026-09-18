@@ -7,7 +7,21 @@ def calcular_velocidade(sprints):
     1. Função para calcular média de Story Points finalizados.
     sprints: lista de inteiros contendo os pontos de cada Sprint (ex: [12, 10, 14])
     """
-    # TODO: Implementar lógica de soma e média
+    # TODO: def calcular_velocidade(sprints):
+    # Se a lista estiver vazia, a velocidade é zero para evitar divisão por zero
+    if not sprints:
+        return 0.0
+        
+    # Lógica de soma e média
+    total_pontos = sum(sprints)
+    media = total_pontos / len(sprints)
+    
+    return media
+
+# Exemplo de uso:
+# dados_sprints = [12, 10, 14]
+# print(calcular_velocidade(dados_sprints))  # Saída: 12.0
+
     pass
 
 
