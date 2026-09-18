@@ -27,17 +27,28 @@ def calcular_velocidade(sprints):
 
 def validar_dependencia(tarefa_pai_concluida):
     """
-    2. Função para validar se a dependência técnica foi concluída.
-    tarefa_pai_concluida: booleano (True ou False)
+    # TODO: def validar_dependencia(tarefa_pai_concluida: bool) -> bool:
     """
-    # TODO: Retornar True se concluída, False caso contrário
+    Valida se a dependência técnica foi concluída.
+    
+    Retorna True se concluída, False caso contrário.
+    """
+    if tarefa_pai_concluida:
+        return True
+    return False
+
     pass
 
 
+
 def status_release(sprints_estimadas):
-    """
+    
     3. Função para formatar o status da release.
     sprints_estimadas: número inteiro indicando a quantidade de Sprints
     """
-    # TODO: Retornar string no formato "Release prevista para X Sprints"
+    # TODO: def status_release(sprints_estimadas: int) -> str:
+    """Formata o status da release com base na quantidade de sprints."""
+    plural = "Sprints" if sprints_estimadas != 1 else "Sprint"
+    return f"Release prevista para {sprints_estimadas} {plural}"
+
     pass
